@@ -62,12 +62,6 @@ This application, known as the **MovieVerse**, is developed as part of the Micro
   </ul>
 </details>
 
-<details>
-  <summary>NodeJS</summary>
-  <ul>
-    <li><a href="https://nodejs.org/en">Node.js</a></li>
-  </ul>
-</details>
 <br>
 
 <!-- Features -->
