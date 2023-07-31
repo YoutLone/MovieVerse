@@ -6,7 +6,8 @@
 
 </div>
 
-<img width="200" height="200" border-radius="300" src="https://github.com/YoutLone/MovieVerse/blob/dev/public/assets/movie.jpg" alt="movie-verse" />
+<img width="200" height="200" src="https://github.com/YoutLone/MovieVerse/blob/dev/public/assets/movie.jpg" alt="movie-verse" />
+
 
 <!-- TABLE OF CONTENTS -->
 
