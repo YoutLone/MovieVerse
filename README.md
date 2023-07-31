@@ -8,6 +8,7 @@
 
 <img width="200" height="200" src="https://github.com/YoutLone/MovieVerse/blob/dev/public/assets/movie.jpg" alt="movie-verse" />
 
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -61,12 +62,6 @@ This application, known as the **MovieVerse**, is developed as part of the Micro
   </ul>
 </details>
 
-<details>
-  <summary>NodeJS</summary>
-  <ul>
-    <li><a href="https://nodejs.org/en">Node.js</a></li>
-  </ul>
-</details>
 <br>
 
 <!-- Features -->
