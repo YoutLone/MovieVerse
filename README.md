@@ -181,7 +181,7 @@ If you like this project give it a rating.
 
 ## 📝 License <a name="license"></a>
 
-- This project is [MIT](./LICENSE) licensed.
+- This project is [MIT](https://github.com/YoutLone/MovieVerse/blob/main/LICENSE) licensed.
 - This project is [creativecommons](https://creativecommons.org/licenses/by-nc/4.0/) licensed.
   <a href='https://pngtree.com/free-backgrounds'>free background photos from pngtree.com/</a>
 
