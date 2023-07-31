@@ -1,70 +1,188 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+  <h1><b>MovieVerse (React Capstone Project)</b></h1>
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
+<img width="300" height="300" border-radius="300" src="https://github.com/YoutLone/MovieVerse/blob/dev/public/assets/movie.jpg" alt="movie-verse" />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- TABLE OF CONTENTS -->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 📗 Table of Contents
 
-### `npm test`
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+    - [🚀 Live Demo ](#-live-demo-)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- PROJECT DESCRIPTION -->
 
-### `npm run build`
+# 📖 MovieVerse (React Capstone Project) <a name="about-project"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This application, known as the **MovieVerse**, is developed as part of the Microverse REACT-REDUX capstone project. Its primary function is to serve as a TV show database, with all shows being sourced from an API.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠 Built With <a name="built-with">HTML5 , CSS, REACT and REDUX</a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🛠 Tech Stack <a name="tech-stack"></a>
 
-### `npm run eject`
+<details>
+  <summary>React</summary>
+  <ul>
+    <li><a href="https://html.com/css/#What_is_CSS">reactjs.org</a></li>
+  </ul>
+</details>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<details>
+  <summary>CSS</summary>
+  <ul>
+    <li><a href="https://html.com/css/#What_is_CSS">style.css</a></li>
+  </ul>
+</details>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<details>
+  <summary>Javascript</summary>
+  <ul>
+    <li><a href="https://www.javascripttutorial.net/javascript-dom/document-object-model-in-javascript/">script.js</a></li>
+  </ul>
+</details>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<details>
+  <summary>NodeJS</summary>
+  <ul>
+    <li><a href="https://nodejs.org/en">Node.js</a></li>
+  </ul>
+</details>
+<br>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<!-- Features -->
 
-## Learn More
+### Key Features <a name="key-features"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Responsive Design**
+- **User can see the movie detail**
+- **User can choose the type of movie**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Code Splitting
+<!-- LIVE DEMO -->
+## 🚀 Live Demo <a name="live-demo"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [Live Demo Link](https://movieverse-rzc1.onrender.com/)
+- [Video Walkthrough](https://www.loom.com/share/7ee3a2af3c7b4b388156711ce64bd35a?sid=479c1aac-e117-4255-bb25-a18a27121004)
 
-### Analyzing the Bundle Size
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<!-- GETTING STARTED -->
+## 💻 Getting Started <a name="getting-started"></a>
 
-### Making a Progressive Web App
+> To get a local copy up and running, follow these steps.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Prerequisites
 
-### Advanced Configuration
+> In order to run this project you need:
+> - Git bash
+> - Visual Code Studio
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Setup
+> Clone this repository to your desired folder:<br>
+> <code>cd your-folder</code>
+```sh
+git clone https://github.com/YoutLone/MovieVerse.git
+```
 
-### Deployment
+### Install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+> Installation dependency for linters check
+Find the guide [here](https://github.com/microverseinc/linters-config/tree/master/react-redux).
 
-### `npm run build` fails to minify
+### Usage
+> Run the project on Visual Studio Code Live Server
+```sh
+  npm install
+```
+```sh
+  npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Run tests
+
+> To run tests, run the following command:
+
+> To check for css errors run:
+```sh
+  npx stylelint "**/*.{css,scss}"
+```
+> To check for js errors run:
+```sh
+  npx eslint "**/*.{js,jsx}"
+```
+
+## 👥 Authors <a name="authors"></a>
+
+> 👤 **Than Myo Htet**
+> - GitHub: [@YoutLone](https://github.com/YoutLone)
+> - LinkedIn: [than-myo-htet-618b2524b](https://linkedin.com/in/than-myo-htet-618b2524b)
+> - Twitter: [ThanMyoHte64860](https://twitter.com/ThanMyoHte64860)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+- Adding additional information for each TV show, such as the number of seasons and episodes available.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/YoutLone/MovieVerse/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project give it a rating.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> - I express my gratitude to [Microverse](https://www.microverse.org/) for generously providing the resources and knowledge required to undertake projects like this.
+> - credit: credit to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) the author of the [original design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs))
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+- This project is [MIT](./LICENSE) licensed.
+- This project is [creativecommons](https://creativecommons.org/licenses/by-nc/4.0/) licensed.
+  <a href='https://pngtree.com/free-backgrounds'>free background photos from pngtree.com/</a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
