@@ -3,7 +3,7 @@ import { BsArrowRightCircle } from 'react-icons/bs';
 import { useNavigate } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
-function Movie({ Movie, backgroundColor }) {
+function Movie({ Movie }) {
   const navigate = useNavigate();
 
   const handleMovieDetails = () => {
@@ -12,7 +12,7 @@ function Movie({ Movie, backgroundColor }) {
   };
 
   return (
-    <div className="movie-item" style={{ backgroundColor }}>
+    <div className="movie-item">
       <button
         type="button"
         onClick={handleMovieDetails}
@@ -39,7 +39,6 @@ Movie.propTypes = {
       average: PropTypes.number.isRequired,
     }).isRequired,
   }).isRequired,
-  backgroundColor: PropTypes.string.isRequired,
 };
 
 export default Movie;
